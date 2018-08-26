@@ -19,9 +19,9 @@ nav a{
     padding-right: 15px;
     padding-left: 15px;
     background-color: lightgrey;
-    margin-right: 20px;
+    margin-right: 5px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 15px;
     color:black;
     border-radius: 5px;
 }
@@ -98,14 +98,15 @@ h3 {
 }
 
 #slides {
-    height: 400px;
-    width: 50%;
-    margin-left: 25%;
+    height: 200px;
+    width: 95%;
     display: none;
-    align-self: center;
     border:5px solid black;
 }
-
+#slides img{
+    height: 100%;
+    width: 100%;
+}
 #movie {
     text-align: center;
     order: 4;
@@ -131,9 +132,9 @@ section {
 
 .examples {
     width: 75%;
-    margin: 12%;
-    margin-top: 5%;
+    margin: 10%;
     border: solid 1px black;
+    margin-bottom: 5%;
 }
 
 
@@ -141,12 +142,13 @@ footer {
     order: 7;
 }
 #social{
-    align-self: right;
     height: 75px;
     width: 75px;
 }
 #socials{
-    align-self: right;
     height: 75px;
     width: 150px;
+}
+#social-media{
+    text-align: center;
 }
